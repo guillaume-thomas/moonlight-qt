@@ -189,6 +189,12 @@ QString StreamingPreferences::getSuffixFromLanguage(StreamingPreferences::Langua
         return "fr";
     case LANG_ZH_CN:
         return "zh_cn";
+    case LANG_NB_NO:
+        return "nb_NO";
+    case LANG_RU:
+        return "ru";
+    case LANG_ES:
+        return "es";
     case LANG_AUTO:
     default:
         return QLocale::system().name();
